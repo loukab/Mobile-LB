@@ -1,0 +1,19 @@
+* text=auto
+
+# Handle line endings for source code files (Kotlin)
+*.kt      text eol=lf
+*.xml     text eol=lf
+*.gradle  text eol=lf
+*.properties text eol=lf
+*.md      text eol=lf
+
+# Handle Windows/macOS/Linux specific files
+*.bat     text eol=crlf
+*.sh      text eol=lf
+
+# Ignore binary files
+*.png     binary
+*.jpg     binary
+*.gif     binary
+*.mp4     binary
+*.apk     binary
