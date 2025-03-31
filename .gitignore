@@ -1,0 +1,52 @@
+# Android/Gradle-related
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.jar
+*.keystore
+.gradle/
+local.properties
+captures/
+outputs/
+build/
+app/build/
+app/release/
+app/debug/
+gradle-app.setting/
+
+# Kotlin-specific
+*.kt~
+*.iml
+.idea/
+*.log
+bin/
+obj/
+
+# OS-specific files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.*.swp
+.*.swo
+.*.swn
+
+# IDEs & Editors
+# VS Code
+.vscode/
+*.code-workspace
+
+# Vim
+*.swp
+*.swo
+*.swn
